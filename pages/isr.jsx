@@ -17,6 +17,6 @@ export default function About({ date }) {
 export async function getStaticProps() {
   return {
     props: { date: new Date().toString() },
-    revalidate: 5,
+    revalidate: 300,
   };
 }
