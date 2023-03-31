@@ -1,4 +1,4 @@
-import ArticleList from "@/components/Article/ArticleList";
+import ArticleList from "@/components/Article/articleList";
 import Header from "@/components/Header";
 
 const Home = (props) => {
