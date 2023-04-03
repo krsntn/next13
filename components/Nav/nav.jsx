@@ -15,6 +15,12 @@ const Nav = () => {
         <li>
           <Link href="/isr">ISR</Link>
         </li>
+        <li>
+          <Link href="/ssr">SSR</Link>
+        </li>
+        <li>
+          <Link href="/sse">SSE</Link>
+        </li>
       </ul>
     </nav>
   );
