@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       `data: ${data.getHours()}:${data.getMinutes()}:${data.getSeconds()}\n\n`
     );
     res.flush();
-  }, 3000);
+  }, 2000);
 
   // Clean up resources when the client disconnects
   req.on("close", () => {

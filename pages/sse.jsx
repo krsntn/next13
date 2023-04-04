@@ -21,7 +21,7 @@ export default function SSE() {
     return () => {
       source.close();
     };
-  });
+  }, []);
 
   return (
     <div>
