@@ -1,0 +1,45 @@
+{
+  "bet": {
+    "home": "主",
+    "away": "客",
+    "draw": "和"
+  },
+  "betTypes": {
+    "handicap": "全场让球",
+    "odd_even": "全场单/双",
+    "over_under": "全场大/小",
+    "ft_1x2": "全场独赢",
+    "1h_handicap": "上半场让球",
+    "1h_over_under": "上半场大/小",
+    "1h_1x2": "上半场独赢",
+    "moneyline": "胜负盘",
+    "1st_moneyline": "上半场胜负盘",
+    "game_handicap": "局数获胜者",
+    "match_handicap": "比赛让局",
+    "match_point_handicap": "比赛让分盘",
+    "match_point_over_under": "比赛分数大小盘",
+    "match_point_odd_even": "比赛分数单双盘"
+  },
+  "bottomNavigator": {
+    "setting": "设置菜单",
+    "bettingRecord": "投注记录",
+    "refresh": "刷新"
+  },
+  "oddsTypes": {
+    "malayPrice": "马来盘",
+    "hongKongPrice": "香港盘",
+    "decimalPrice": "欧洲盘",
+    "indoPrice": "印尼盘",
+    "americanPrice": "美国盘"
+  },
+  "filterDay": {
+    "today": "今天",
+    "yesterday": "昨天",
+    "1week": "一周",
+    "2weeks": "半月",
+    "1month": "一月"
+  },
+  "keypad": {
+    "confirm": "确定"
+  }
+}

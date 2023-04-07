@@ -1,0 +1,17 @@
+.scrollButton {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .icon {
+    color: var(--font-color);
+  }
+}

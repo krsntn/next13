@@ -1,0 +1,11 @@
+{
+  "stateCode": {
+    "6": "Point is expired",
+    "8": "Odds change",
+    "12": "Odds suspend",
+    "17": "Odds error",
+    "18": "In play changed",
+    "22": "Score change",
+    "23": "Point change"
+  }
+}

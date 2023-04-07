@@ -1,0 +1,23 @@
+{
+  "category": {
+    "All": "所有盘口",
+    "Hot": "热门",
+    "notStarted": "未开赛",
+    "FullTime": "全场",
+    "Half": "半场",
+    "Corners/Bookings": "角球/罚牌",
+    "Intervals": "区间",
+    "Specials": "特别产品",
+    "Players": "选手",
+    "FastMarket": "快速盘口",
+    "Quarter": "节",
+    "ExtraTime": "加时",
+    "Penalty": "点球"
+  },
+  "eventDetails": {
+    "yellow_card": "黄牌",
+    "red_card": "红牌",
+    "total": "总分",
+    "live_stream": "视频直播"
+  }
+}

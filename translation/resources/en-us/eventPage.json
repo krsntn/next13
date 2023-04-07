@@ -1,0 +1,22 @@
+{
+  "category": {
+    "All": "All",
+    "Hot": "Hot",
+    "FullTime": "Full Time",
+    "Half": "Half Time",
+    "Corners/Bookings": "Corners/Bookings",
+    "Intervals": "Intervals",
+    "Specials": "Specials",
+    "Players": "Players",
+    "FastMarket": "FastMarket",
+    "Quarter": "Quarter",
+    "ExtraTime": "ExtraTime",
+    "Penalty": "Penalty"
+  },
+  "eventDetails": {
+    "yellow_card": "Yellow Card",
+    "red_card": "Red Card",
+    "total": "Total",
+    "live_stream": "Live Stream"
+  }
+}

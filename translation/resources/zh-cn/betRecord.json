@@ -1,0 +1,18 @@
+{
+  "betRecord": {
+    "won": "赢",
+    "lose": "输",
+    "void": "作废",
+    "running": "运行",
+    "draw": "平局",
+    "reject": "拒绝",
+    "refund": "退款",
+    "waiting": "等待",
+    "open_bet": "未结算",
+    "settled": "已结算",
+    "no_bet_record": "暂无投注记录",
+    "retrieving_data": "加载中...",
+    "go_bet": "立即投注",
+    "close": "关闭"
+  }
+}

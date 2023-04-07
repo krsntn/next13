@@ -1,0 +1,11 @@
+{
+  "topbar": {
+    "today": "今日",
+    "live": "滚球",
+    "early": "早盘",
+    "combo": "串关",
+    "outrights": "冠军",
+    "cancelSearch": "取消",
+    "searchPlaceholder": "请输入联赛或球队名..."
+  }
+}

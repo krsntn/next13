@@ -1,0 +1,43 @@
+.container {
+  background-color: var(--white);
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+
+  .panel {
+    position: sticky;
+    top: var(--panel-top);
+    z-index: 90;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background: var(--white);
+    color: var(--grey);
+    padding: 3px 0;
+
+    .runningIcon {
+      height: 1rem;
+    }
+
+    .title {
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--black);
+      padding: 0.2rem 0;
+    }
+
+    .icon {
+      width: 0.8rem;
+      transition: transform 500ms;
+      color: #b7c0c6;
+      transform: rotate(90deg);
+
+      &.active {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

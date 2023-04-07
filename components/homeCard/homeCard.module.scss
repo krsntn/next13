@@ -1,0 +1,251 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48.75% 48.75% 2.5%;
+  border-top: 1px solid #ddd;
+  padding: 3px 0;
+
+  --animationDuration: 3s;
+
+  .columnDesc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 3px;
+    font-size: 0.9rem;
+    height: 100%;
+
+    .title {
+      flex: 0 0 33%;
+      text-align: center;
+    }
+  }
+
+  .leftColumn {
+    padding: 0 8px;
+    text-align: left;
+    color: var(--font-color);
+
+    .title {
+      padding: 12px 0 8px;
+      color: #929292;
+      font-size: 0.9rem;
+    }
+
+    .team {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 8px 0;
+
+      .teamImg {
+        width: 1.4rem;
+        height: 1.4rem;
+      }
+
+      .teamName {
+        padding: 0 5px;
+        flex: 1;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .score {
+        font-size: 1.4rem;
+        font-weight: 500;
+      }
+    }
+
+    .bottom {
+      padding: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .watch {
+        > * {
+          margin-right: 0.5rem;
+        }
+
+        > *:last-child {
+          margin-right: 0;
+        }
+
+        .liveMatch {
+          height: 1.3rem;
+          width: 1.3rem;
+          padding: 0;
+          display: none;
+
+          &.show {
+            display: unset;
+          }
+        }
+      }
+
+      .moreWrapper {
+        .more {
+          color: #6d9290;
+          padding: 1px 3px;
+          border: 1px solid #f2f4f5;
+        }
+      }
+    }
+  }
+
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+
+    .table {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3px;
+      height: 100%;
+      padding: 3px;
+      padding-right: 0;
+      word-break: break-word;
+
+      .threeButtons_wrapper {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3px;
+      }
+
+      .twoButtons_wrapper {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3px;
+      }
+
+      .betButton {
+        background-color: #ecf2f5;
+        padding: 0;
+        font-size: 0.9rem;
+
+        .title {
+          color: #929292;
+        }
+
+        .rate {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--font-color);
+          font-weight: bold;
+
+          &.changed_up {
+            animation: rate_changed_up var(--animationDuration) ease-in-out;
+          }
+
+          &.changed_down {
+            animation: rate_changed_down var(--animationDuration) ease-in-out;
+          }
+
+          .rateChangedIcon {
+            width: 0;
+            animation: rate_changed_icon var(--animationDuration) ease-in-out;
+          }
+        }
+
+        &.tick {
+          background-color: var(--primary-color);
+
+          .title {
+            color: var(--white);
+          }
+          .rate {
+            font-weight: bold;
+            color: var(--white);
+          }
+        }
+      }
+
+      .betButton_dash {
+        background-color: #ecf2f5;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: auto 30%;
+        height: 100%;
+        width: 100%;
+      }
+
+      .betButton_lock {
+        background-color: #ecf2f5;
+        background-image: url(../../assets/images/icons/lock.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: auto 1.3rem;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .navigator {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .dot {
+        background-color: #ccc;
+        margin: 1px 3px;
+        border-radius: 10px;
+        height: 3px;
+        width: 10px;
+
+        &.active {
+          background-color: #4a928d;
+          width: 20px;
+        }
+      }
+    }
+  }
+
+  .indicatorColumn {
+    position: relative;
+    overflow: hidden;
+
+    .icon {
+      position: absolute;
+      width: 18px;
+      left: -2px;
+      top: 50%;
+      transform: translateY(-70%);
+    }
+  }
+}
+
+@keyframes rate_changed_up {
+  0% {
+    opacity: 0.1;
+    color: green;
+  }
+  100% {
+    opacity: 1;
+    color: green;
+  }
+}
+
+@keyframes rate_changed_down {
+  0% {
+    opacity: 0.1;
+    color: red;
+  }
+  100% {
+    opacity: 1;
+    color: red;
+  }
+}
+
+@keyframes rate_changed_icon {
+  0% {
+    opacity: 0.1;
+    width: 0.7rem;
+  }
+  100% {
+    opacity: 1;
+    width: 0.7rem;
+  }
+}

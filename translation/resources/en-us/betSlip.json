@@ -1,0 +1,24 @@
+{
+  "betSlip": {
+    "odds_changed": "Odds Changed",
+    "balance": "Balance",
+    "max_bet": "Max Bet",
+    "win_amount": "Win Amount",
+    "max": "Max",
+    "system_desc": "System will auto accept higher odds",
+    "bet": "Bet",
+    "bet_amount": "Bet amount",
+    "bet_slip_confirmed": "Bet Slip Confirmed",
+    "trans_id": "Transaction Id",
+    "confirm": "Ok",
+    "bet_successful": "Bet Successful",
+    "bet_amount_empty": "Bet amount cannot be empty",
+    "bet_amount_format": "Bet amount format incorrect"
+  },
+  "noBalance": {
+    "title": "您的账户余额不足",
+    "desc": "选择存款或转账操作完成余额充值后即可投注！",
+    "transfer_button": "钱包转账",
+    "deposit_button": "立即存款"
+  }
+}

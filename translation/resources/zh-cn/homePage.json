@@ -1,0 +1,14 @@
+{
+  "homePage": {
+    "running": "进行中",
+    "notStarted": "未开赛",
+    "all": "全部",
+    "others": "其他"
+  },
+  "comboReminder": {
+    "header": "串关玩法只适用于欧洲盘",
+    "desc": "进入串关玩法后赔率将以欧洲盘赔率显示和结算",
+    "checkbox_label": "不再提示",
+    "confirm_button": "确认进入串关玩法"
+  }
+}

@@ -1,11 +1,18 @@
-import '../styles/globals.css';
-import Layout from '../components/Layout';
+import Layout from "../components/layout";
+import "../styles/global.css";
+import Stores from "@/context";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+
+dayjs.extend(utc);
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <Stores>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </Stores>
   );
 }
 

@@ -1,0 +1,12 @@
+{
+  "betRecord": {
+    "win": "Win",
+    "lose": "Lose",
+    "open_bet": "Open Bet",
+    "settled": "Settled",
+    "no_bet_record": "No Bet Record",
+    "retrieving_data": "Loading...",
+    "go_bet": "Bet",
+    "close": "Close"
+  }
+}

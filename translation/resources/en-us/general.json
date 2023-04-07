@@ -1,0 +1,45 @@
+{
+  "bet": {
+    "home": "Home",
+    "away": "Away",
+    "draw": "Draw"
+  },
+  "betTypes": {
+    "handicap": "Handicap",
+    "odd_even": "Odd/Even",
+    "over_under": "Big/Small",
+    "ft_1x2": "FT 1x2",
+    "1h_handicap": "1H Handicap",
+    "1h_over_under": "1H Over/Under",
+    "1h_1x2": "1H 1x2",
+    "moneyline": "Money Line",
+    "1st_moneyline": "1st Money Line",
+    "game_handicap": "Game Handicap",
+    "match_handicap": "Match Handicap",
+    "match_point_handicap": "Match Point Handicap",
+    "match_point_over_under": "Match Point Over/Under",
+    "match_point_odd_even": "Match Point Odd/Even"
+  },
+  "bottomNavigator": {
+    "setting": "Setting",
+    "bettingRecord": "Bet Record",
+    "refresh": "Refresh"
+  },
+  "oddsTypes": {
+    "malayPrice": "Malay",
+    "hongKongPrice": "Hong Kong",
+    "decimalPrice": "Euro",
+    "indoPrice": "Indo",
+    "americanPrice": "American"
+  },
+  "filterDay": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "1week": "1 Week",
+    "2weeks": "2 Weeks",
+    "1month": "1 Month"
+  },
+  "keypad": {
+    "confirm": "OK"
+  }
+}

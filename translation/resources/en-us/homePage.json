@@ -1,0 +1,14 @@
+{
+  "homePage": {
+    "running": "Running",
+    "notStarted": "Not Started",
+    "all": "All",
+    "others": "Others"
+  },
+  "comboReminder": {
+    "header": "Combo Bet only applicable for euro odds selection",
+    "desc": "Combo Bet wager will settle and display in euro odds",
+    "checkbox_label": "Do not remind again",
+    "confirm_button": "Comfirm"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "competition_filter": "Competition Filter",
+    "more": "More",
+    "event_sorting": "Event Sorting",
+    "popular": "Popular",
+    "date": "Date",
+    "odds_type": "Odds Type",
+    "timezone": "Timezone",
+    "select_competition": "Select Competition",
+    "cancel": "Cancel",
+    "save": "Save",
+    "search_competition": "Search competition",
+    "remove": "Clear",
+    "loading": "Loading..."
+  }
+}

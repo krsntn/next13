@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "competition_filter": "联赛筛选",
+    "more": "更多",
+    "event_sorting": "排列规则",
+    "popular": "热门",
+    "date": "时间",
+    "odds_type": "盘口设置",
+    "timezone": "时区",
+    "select_competition": "选择联赛",
+    "cancel": "取消",
+    "save": "完成",
+    "search_competition": "搜索联赛",
+    "remove": "清空",
+    "loading": "努力加载中..."
+  }
+}

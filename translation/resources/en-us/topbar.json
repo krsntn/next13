@@ -1,0 +1,11 @@
+{
+  "topbar": {
+    "today": "Today",
+    "live": "Live",
+    "early": "Early",
+    "combo": "Combo",
+    "outrights": "Outrights",
+    "cancelSearch": "Cancel",
+    "searchPlaceholder": "Search by competition name or team name"
+  }
+}

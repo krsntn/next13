@@ -9,10 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.37.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.3.5",
+    "dayjs": "^1.11.7",
     "eslint-config-next": "13.2.4",
+    "i18next": "^22.4.14",
     "next": "13.2.4",
+    "query-string": "^8.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-i18next": "^12.2.0",
+    "swiper": "^9.2.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.7",
+    "sass": "^1.61.0"
   }
 }
