@@ -4,9 +4,9 @@ import { UserContext } from "../../context/user";
 import { LS_KEYS, api, apiGET, apiPost } from "../../utils";
 import queryString from "query-string";
 import { useContext, useEffect, useState } from "react";
-import { Toaster, toast } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 
-const layout = ({ children }) => {
+const Layout = ({ children }) => {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
   const { state: userContext, dispatch: userDispatch } =
     useContext(UserContext);
@@ -36,4 +36,4 @@ const layout = ({ children }) => {
   );
 };
 
-export default layout;
+export default Layout;
